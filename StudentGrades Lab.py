@@ -49,8 +49,8 @@ def desc_stats(scores):
     minimum = np.min(scores)
     maximum = np.max(scores)
     range_ = maximum - minimum
-    variance = np.var(scores, ddof=0)  # Population variance
-    std_dev = np.std(scores, ddof=0)  # Population standard deviation
+    variance = np.var(scores, ddof=0) 
+    std_dev = np.std(scores, ddof=0)  
 
     print("Statistical Calculations:")
     print(f"Mean: {mean:.2f}")
